@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 20vh;
+    background-color:#777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+
+}
+
+form button {
+
+    color: #FFFFFF;
+    background-color: #2C3333;
+    width: 140px;
+    box-shadow: 10px 18px 41px -8px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    padding: 10px 50px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    outline: none;
+    border: none;
+}
+
+form .fa-search {
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+}
